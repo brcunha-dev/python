@@ -6,7 +6,7 @@ a = int(input("Digite o valor de A: "))
 b = int(input("Digite o valor de B: "))
 c = int(input("Digite o valor de c: "))
 delta = (b**2)-4*a*c
-if delta<=0:
+if delta < 0:
     print("Delta menor que 0, fim do programa")
 else:
     x1 = (-b+math.sqrt(delta))/(2*a)

@@ -2,8 +2,8 @@ import math
 print("Vamos calcular os valores de um retângulo")
 
 # variáveis
-base = float(input("Digite a base do retângulo"))
-altura = float(input("Digite a altura do retângulo"))
+base = float(input("Digite a base do retângulo: "))
+altura = float(input("Digite a altura do retângulo: "))
 
 # contas
 area = altura*base

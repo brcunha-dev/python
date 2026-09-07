@@ -12,4 +12,4 @@ diagonal = math.sqrt(base**2+altura**2)
 
 print(f"A área do retângulo é: {area}")
 print(f"O perimetro do retângulo é {perimetro}")
-print(f"A diagonal do retângulo é: {diagonal}")
+print(f"A diagonal do retângulo é: {diagonal:.2f}")
